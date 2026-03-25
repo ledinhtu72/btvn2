@@ -25,7 +25,6 @@ public class SessionManager {
         editor.putString(KEY_USERNAME, username);
         editor.commit();
     }
-
     public boolean isLoggedIn() {
         return pref.getBoolean(IS_LOGIN, false);
     }
