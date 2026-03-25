@@ -12,7 +12,6 @@ public class Order {
         this.orderDate = orderDate;
         this.status = status;
     }
-
     public int getId() { return id; }
     public int getUserId() { return userId; }
     public String getOrderDate() { return orderDate; }
