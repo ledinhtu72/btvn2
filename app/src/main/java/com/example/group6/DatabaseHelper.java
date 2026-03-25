@@ -10,7 +10,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "shopping.db";
     private static final int DATABASE_VERSION = 1;
 
-    // Table Names
+
     public static final String TABLE_USERS = "Users";
     public static final String TABLE_CATEGORIES = "Categories";
     public static final String TABLE_PRODUCTS = "Products";
